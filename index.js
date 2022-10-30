@@ -6,10 +6,9 @@ var btnStart=document.getElementById("btn-start");
 var btnStop=document.getElementById("btn-stop");
 var btnReset=document.getElementById("btn-reset");
 
-var interval; //to store timer values
+var interval; //variable to store the timer values
 
-// this function will run when click on start
-
+//this function will be called on clicking start button
 function startTimer(){
     sec++
 
